@@ -1,11 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 #navbar{
     width:100%;
     height: 50px;
     background-color: white;
     justify-content: space-around;
+    margin-bottom: 20px;
 }
 
-#container, #menu, #navbar{
+#main-container, #menu, #navbar{
     display: flex;
 }
 #logo-container{
@@ -52,13 +59,86 @@
 }
 
 #video{
-    background-color: green;
+    background-color: white;
     width: 60%;
+    margin-right:40px;
     height: auto;
 }
 
+#video #content{
+    margin-left: 100px;
+}
+
+#video #description{
+    border-top: 1px solid lightgray;
+}
+#video #description p{
+    white-space: pre-wrap;
+}
+
 #sidebar{
-    background-color:orange;
-    width: 30%;
-    height: 400px;
+    background-color:white;
+    width: 25%;
+    height: auto;
+}
+
+#sidebar img{
+    width: 168px;
+    height: 94px;
+}
+
+#sidebar #autoplay, #recommendations ul li{
+    display:flex;
+    
+}
+
+#recommendations ul li{
+    padding-bottom: 10px;
+}
+#sidebar #details{
+    padding-left: 10px;
+}
+#sidebar #details p{
+    margin:0;
+}
+
+#sidebar #title{
+    font-size: 14px;
+    font-weight: 600;
+}
+#sidebar #channel, #sidebar #views{
+    color: rgb(96, 96, 96);
+    font-size: 13px;
+    font-weight: 400;
+}
+
+#recommendations ul{
+    padding:0;
+    margin:0;
+}
+
+#sidebar #autoplay{
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+#sidebar #autoplay-option{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+#sidebar #autoplay-option p{
+    margin: 0;
+}
+#sidebar #autoplay-option p:first-child{
+    color: #0A0A0A;
+    font-size: 16px;
+    font-weight: 400;
+}
+#sidebar #autoplay-option p:nth-child(2){
+    color: #606060;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 500;
 }
