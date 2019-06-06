@@ -93,11 +93,37 @@ body{
     white-space: pre-wrap;
 }
 
-#video #description #video-owner{
+.video-flex{
     display: flex;
-    padding-top: 20px;
+    align-items: center;
+    
 }
-#video #description #video-owner img{
+
+.video-owner-thumb{
+    margin: 16px 20px;
+}
+.video-channel-details p{
+    margin: 5px;
+}
+.video-channel-details{
+    margin: 16px 20px 16px 0;
+}
+.video-channel-subscribe{
+    width: 100%
+}
+.subscribe{
+    float: right;
+}
+
+
+.subscribe{
+    background-color: #CC0000;
+    color: white;
+    border: 0;
+    padding: 10px 16px;
+}
+
+#video #description img{
     border-radius: 50%;
 }
 
