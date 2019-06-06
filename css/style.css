@@ -89,10 +89,10 @@ main{
 .social-buttons{
     margin: 16px 0;
 }
-#video #description{
+#video .description{
     border-top: 1px solid lightgray;
 }
-#video #description p{
+#video .description p{
     white-space: pre-wrap;
 }
 
@@ -112,11 +112,11 @@ main{
     margin: 16px 20px 16px 0;
     min-width: 200px;
 }
-.video-channel-details #channel-name{
+.video-channel-details .channel-name{
     font-weight: 600;
 }
 
-.video-channel-details #date{
+.video-channel-details .date{
     font-size: 13px;
     color: rgba(17,17,17,0.6);
 }
@@ -139,7 +139,7 @@ main{
 }
 
 
-#video #description img, .video-owner-thumb>img{
+#video .description img, .video-owner-thumb>img{
     border-radius: 50%;
 }
 
@@ -313,7 +313,9 @@ iframe{
     border-top: none;
     border-left: none;
     border-right: none;
-    border-style: 1px solid grey;
+    border-bottom-style: solid;
+    border-color: grey;
+    border-width: 1px;
 }
 .description-item{
     display: flex;
