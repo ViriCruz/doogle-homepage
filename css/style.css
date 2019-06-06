@@ -103,18 +103,18 @@ body{
 #recommendations ul li{
     padding-bottom: 10px;
 }
-#sidebar #details{
+#sidebar .details{
     padding-left: 10px;
 }
-#sidebar #details p{
+#sidebar .details p{
     margin:0;
 }
 
-#sidebar #title{
+#sidebar .title{
     font-size: 14px;
     font-weight: 600;
 }
-#sidebar #channel, #sidebar #views{
+#sidebar .channel, #sidebar .views{
     color: rgb(96, 96, 96);
     font-size: 13px;
     font-weight: 400;
