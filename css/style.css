@@ -57,7 +57,9 @@ body{
     height:32px;
     margin:auto;
 }
-
+main{
+    width: 60%;
+}
 #video{
     background-color: white;
     max-width: 100%;
@@ -67,6 +69,7 @@ body{
 
 #video #content{
     margin-left: 100px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .social-icons{
@@ -107,21 +110,34 @@ body{
 }
 .video-channel-details{
     margin: 16px 20px 16px 0;
+    min-width: 200px;
+}
+.video-channel-details #channel-name{
+    font-weight: 600;
+}
+
+.video-channel-details #date{
+    font-size: 13px;
+    color: rgba(17,17,17,0.6);
 }
 .video-channel-subscribe{
     width: 100%
 }
+
+.details-content{
+    margin-left: 88px;
+}
 .subscribe{
     float: right;
-}
-
-
-.subscribe{
     background-color: #CC0000;
     color: white;
     border: 0;
     padding: 10px 16px;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 4px;
 }
+
 
 #video #description img{
     border-radius: 50%;
